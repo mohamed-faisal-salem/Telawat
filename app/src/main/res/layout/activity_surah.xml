@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:background="@color/blue_night"
+    android:layout_height="match_parent">
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:alpha="0.5"
+        />
+
+        <!-- RecyclerView for Surah List -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/surahRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar_surah"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:elevation="16dp"
+        android:background="@drawable/tool_bar_home"
+        android:id="@+id/toolbar_surah">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white_hint"
+            android:textSize="18dp"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:freezesText="true"
+            android:textStyle="bold"
+            android:fontFamily="@font/reader_font"
+            android:layout_marginVertical="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="80dp"
+            android:id="@+id/readerName"
+            />
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/baseline_download_24"
+            android:background="@drawable/btn_image"
+            android:padding="8dp"
+            android:id="@+id/download"
+            />
+        <ProgressBar
+            android:id="@+id/fragmentProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:indeterminate="false"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/custom_progress_bar"/>
+
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+

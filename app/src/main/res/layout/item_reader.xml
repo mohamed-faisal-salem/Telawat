@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    app:cardCornerRadius="6dp"
+    app:strokeColor="@color/hint_white"
+    app:strokeWidth="2dp"
+    android:layout_marginVertical="4dp"
+    android:layout_marginHorizontal="12dp"
+    android:elevation="280dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:id="@+id/rlt_surah"
+        android:background="@drawable/item_recitation"
+        android:layout_height="wrap_content"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="28dp">
+        <TextView
+            android:id="@+id/numberOfReaderName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textColor="@color/hint_white"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/numbers"/>
+        <TextView
+            android:id="@+id/readerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/numberOfReaderName"
+            android:text=""
+            android:padding="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textColor="@color/hint_white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/reader_font"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:freezesText="true"
+            android:drawablePadding="8dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>

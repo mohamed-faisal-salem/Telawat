@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    app:cardBackgroundColor="#00CCCCCC"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:id="@+id/rlt_surah"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="14dp">
+
+        <!-- رقم السورة -->
+        <TextView
+            android:id="@+id/currentSurahPosition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="8dp"/>
+
+        <!-- اسم السورة -->
+        <TextView
+            android:id="@+id/surahName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الفاتحة"
+            android:textSize="20sp"
+            android:textColor="@color/white_hint"
+            android:textStyle="bold"
+            android:fontFamily="@font/surah"
+            android:maxLines="1"
+            android:ellipsize="end"
+            app:layout_constraintStart_toEndOf="@id/currentSurahPosition"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="12dp"/>
+
+        <!-- اسم القارئ والرواية -->
+        <TextView
+            android:id="@+id/readerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ترتيل - حفص عن عاصم"
+            android:textSize="12sp"
+            android:textColor="@color/hint_white"
+            android:maxLines="1"
+            android:layout_marginStart="2dp"
+            android:ellipsize="end"
+            app:layout_constraintStart_toStartOf="@id/surahName"
+            app:layout_constraintTop_toBottomOf="@id/surahName"
+            android:layout_marginTop="4dp"/>
+
+
+        <ImageView
+            android:id="@+id/download"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/baseline_download_24"
+            android:focusable="true"
+            android:padding="6dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Download"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:background="#757575"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="0"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:progressDrawable="@drawable/custom_progress_bar"/>
+</androidx.cardview.widget.CardView>
+

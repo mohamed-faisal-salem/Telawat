@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "198173065491",
+    "firebase_url": "https://telawat-f3a37-default-rtdb.firebaseio.com",
+    "project_id": "telawat-f3a37",
+    "storage_bucket": "telawat-f3a37.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198173065491:android:25d2dadf3264b04b1ddae6",
+        "android_client_info": {
+          "package_name": "com.aap.quraankareem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTYAGa7w9BMdnvKb0_lPSzhkfTV_d_quE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

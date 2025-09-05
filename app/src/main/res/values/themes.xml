@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Theme.Moslmon" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- تخصيص الثيم هنا -->
+    </style>
+
+    <!-- Theme for transparent background -->
+    <style name="Theme.App.Transparent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="colorPrimary">@color/blue_tech</item>  <!-- اللون الأساسي -->
+        <item name="colorPrimaryDark">@color/blue_tech_dark</item> <!-- اللون الداكن -->
+        <item name="colorAccent">@color/blue_tech_light</item> <!-- اللون الإضافي -->
+        <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
+    </style>
+
+    <!-- Base theme for AppCompat Light with no action bar -->
+    <style name="Base.Theme.AppCompat.Light.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="android:background">@color/blue_tech_light</item>
+        <item name="android:textColor">@color/black_hint</item>
+        <item name="android:statusBarColor">@color/blue_tech_dark</item>
+    </style>
+
+    <!-- Theme for AppCompat Light with no action bar -->
+    <style name="Theme.AppCompat.Light.NoActionBar" parent="Base.Theme.AppCompat.Light.NoActionBar" />
+
+    <!-- Remove ActionBar and Title -->
+    <style name="Theme.AppCompat.Light.NoActionBar.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- AppBar overlay style (if needed for AppBar customization) -->
+    <style name="Theme.AppCompat.Light.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <!-- Popup overlay style (for customizing popups) -->
+    <style name="Theme.AppCompat.Light.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
