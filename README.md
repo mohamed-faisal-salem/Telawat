@@ -86,25 +86,8 @@ cd Telawat
 
 ---
 
-## 🛠️ Built With
-
-- **Language:** Java (97.7%) & Kotlin (2.3%)
-- **IDE:** Android Studio
-- **Build System:** Gradle
-- **Architecture:** MVVM (Model-View-ViewModel)
-- **Libraries:**
-  - ExoPlayer - For audio playback
-  - Retrofit - For API calls
-  - Room Database - For local storage
-  - Glide - For image loading
-  - Material Design Components
-
----
-
 ## 📋 Requirements
 
-- **Minimum SDK:** 21 (Android 5.0 Lollipop)
-- **Target SDK:** 34 (Android 14)
 - **Internet Connection:** Required for streaming (optional for downloaded content)
 
 ---
@@ -129,7 +112,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Developer
 
-**Mohamed Faisal Salem**
+**Mohamed Faisal**
 
 - GitHub: [@mohamed-faisal-salem](https://github.com/mohamed-faisal-salem)
 - Email: engmohamedfaisal06@gmail.com
