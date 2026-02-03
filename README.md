@@ -54,9 +54,9 @@ Whether you're memorizing, studying, or simply listening to the Quran, Telawat o
 
 ### Main Interface
 
-| Home Screen | Reciter Profile | Player Interface |
-|-------------|----------------|------------------|
-| ![Home](screenshots/home.png) | ![Profile](screenshots/profile.png) | ![Player](screenshots/player.png) |
+| Reciter Profile | Player Interface |
+|----------------|------------------|
+| ![Profile](screenshots/profile.png) | ![Player](screenshots/player.png) |
 
 
 </div>
