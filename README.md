@@ -4,12 +4,7 @@
 
 ### *Experience the Beauty of Quran with 220+ Reciters*
 
-[![Platform](https://img.shields.io/badge/Platform-Android-green.svg)](https://www.android.com/)
-[![Language](https://img.shields.io/badge/Language-Java%2FKotlin-orange.svg)](https://kotlinlang.org/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/mohamed-faisal-salem/Telawat?style=social)](https://github.com/mohamed-faisal-salem/Telawat/stargazers)
-
-[Download APK](#) • [Features](#-features) • [Screenshots](#-screenshots) • [Installation](#-installation)
+[Get it on Google Play](https://play.google.com/store/apps/details?id=com.aap.quraankareem) • [APK Releases](https://github.com/mohamed-faisal-salem/Telawat/releases) • [Features](#-features) • [Screenshots](#-screenshots) • [Installation](#-installation)
 
 </div>
 
@@ -63,15 +58,8 @@ Whether you're memorizing, studying, or simply listening to the Quran, Telawat o
 |-------------|----------------|------------------|
 | ![Home](screenshots/home.png) | ![Profile](screenshots/profile.png) | ![Player](screenshots/player.png) |
 
-### Additional Views
-
-| Search | Downloads | Dark Mode |
-|--------|-----------|-----------|
-| ![Search](screenshots/search.png) | ![Downloads](screenshots/downloads.png) | ![Dark](screenshots/dark.png) |
 
 </div>
-
-> **Note:** Add your actual screenshots to a `screenshots/` folder in the repository
 
 ---
 
@@ -79,9 +67,7 @@ Whether you're memorizing, studying, or simply listening to the Quran, Telawat o
 
 ### For Users
 
-1. Download the latest APK from [Releases](https://github.com/mohamed-faisal-salem/Telawat/releases)
-2. Enable "Install from Unknown Sources" in your Android settings
-3. Install and enjoy!
+👉 **[Install the app and enjoy](https://play.google.com/store/apps/details?id=com.aap.quraankareem)**
 
 ### For Developers
 
@@ -146,28 +132,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Mohamed Faisal Salem**
 
 - GitHub: [@mohamed-faisal-salem](https://github.com/mohamed-faisal-salem)
-- Email: your.email@example.com
+- Email: engmohamedfaisal06@gmail.com
 
----
-
-## 🌟 Support
-
-If you find this project useful, please consider:
-
-- ⭐ Starring the repository
-- 🐛 Reporting bugs
-- 💡 Suggesting new features
-- 🔀 Submitting pull requests
-
----
-
-## 📞 Contact & Feedback
-
-Have questions or suggestions? Feel free to:
-
-- Open an [Issue](https://github.com/mohamed-faisal-salem/Telawat/issues)
-- Submit a [Pull Request](https://github.com/mohamed-faisal-salem/Telawat/pulls)
-- Reach out via email
 
 ---
 
