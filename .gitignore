@@ -13,3 +13,14 @@
 .externalNativeBuild
 .cxx
 local.properties
+# User-specific files
+.idea/
+*.iml
+
+# Keystore files 
+*.jks
+*.keystore
+keystore.properties
+
+# Google Services
+google-services.json  
